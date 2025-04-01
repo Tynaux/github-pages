@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Site de Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #3498db;
+      color: white;
+      padding: 20px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+.container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+  .category-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 15px;
+      width: 250px;
+      text-align: center;
+    }
+    .category-card h3 {
+      color: #3498db;
+    }
+    .quiz-link {
+      display: block;
+      padding: 10px;
+      margin: 5px 0;
+      background-color: #2ecc71;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+   .quiz-link:hover {
+      background-color: #27ae60;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CAPA TRAVAUX PAYSAGERS</h1>
+    <nav>
+      <ul>
+        <li><a href="quizz-racine.html">    </a></li>
+        <!-- Ajoutez ici d'autres liens vers vos quiz -->
+      </ul>
+    </nav>
+  </header>
+  </style>
+</head>
+<body>
+
+<h1>Choisissez un Quiz</h1>
+
+<div class="container">
+  <!-- Catégorie : Botanique -->
+  <div class="category-card">
+    <h3>🌿 Biologie végétale</h3>
+  </div>
+
+  <!-- Catégorie : Maintenance Conditionnelle -->
+  <div class="category-card">
+    <h3>🛠️ Maintenance Conditionnelle</h3>
+    <a href="Données/quiz-moteur.html" class="quiz-link">Les moteurs</a>
+    <a href="Données/quiz-lubrification.html" class="quiz-link">La lubrification</a>
+    <a href="Données/quiz-généralité.html" class="quiz-link">Généralités</a>
+    <a href="Données/quiz-carburateur.html" class="quiz-link">Carburateur</a>
+  </div>
+
+ <!-- Catégorie : Reconnaissance végétale -->
+  <div class="category-card">
+    <h3>🌲 Reconnaissance végétale</h3>
+    <a href="Données/quiz-conifère.html" class="quiz-link">Les conifères</a>
+  </div>
+
+  <!-- Catégorie : Arbres -->
+  <div class="category-card">
+    <h3>🌳 Arbres</h3>
+  </div>
+
+  <!-- Catégorie : Reproduction -->
+  <div class="category-card">
+    <h3>🌱 Reproduction des plantes</h3>
+  </div>
+</div>
+ 
+  <footer>
+    Quiz pour devenir un super jardinier ! Force à toi ! © 2025
+  </footer>
+</body>
+</html>
